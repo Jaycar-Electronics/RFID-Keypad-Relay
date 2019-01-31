@@ -1,6 +1,8 @@
 
 ## Arduino RFID Keypad
 
+* Quick disclaimer, this project is by no-means secure enough to secure valuables, use at your own risk. This is a proof of concept.*
+
 Here's a security project designed with versatility in mind- it's inspired by our [LA5353 RFID Keypad](https://jaycar.com.au/p/LA5353) ,  but because it uses the[XC4630 LCD Touchscreen](https://jaycar.com.au/p/XC4630) , the setup of cards and users is a bit easier. As with most Arduino security stuff, it's pretty easy to bypass if you have physical access to the main board, so we wouldn't recommend using it for protecting valuables. Still, if you want to be able to activate a relay with either a card (most smartcards like public transport cards and bank cards will work with it) or a PIN code, this project fits the bill. There is some soldering required for this project.
 
 ![](images/sample-1.png)
